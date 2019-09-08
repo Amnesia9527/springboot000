@@ -12,4 +12,10 @@ public class Hello {
     public String getHello(){
         return "hello java80000000000000000000000000";
     }
+
+    @RequestMapping("/hello")
+    @ResponseBody
+    public String getHello1(){
+        return "hello world";
+    }
 }

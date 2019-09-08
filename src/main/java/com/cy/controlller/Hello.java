@@ -18,4 +18,9 @@ public class Hello {
     public String getHello1(){
         return "hello world33";
     }
+    @RequestMapping("/hello")
+    @ResponseBody
+    public String getHello2(){
+        return "hello world3388888888888";
+    }
 }

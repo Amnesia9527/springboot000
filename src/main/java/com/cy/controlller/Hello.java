@@ -12,4 +12,10 @@ public class Hello {
     public String getHello(){
         return "hello java8";
     }
+
+    @RequestMapping("/hello")
+    @ResponseBody
+    public String getHello4(){
+        return "滚滚长江东逝水";
+    }
 }

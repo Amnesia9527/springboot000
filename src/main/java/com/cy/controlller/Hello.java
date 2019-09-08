@@ -16,6 +16,6 @@ public class Hello {
     @RequestMapping("/hello")
     @ResponseBody
     public String getHello1(){
-        return "hello world";
+        return "hello world33";
     }
 }
